@@ -1,9 +1,14 @@
 public class Editora {
+    //Atributos
     private int codigo;
     private String nome;
     private String endereço;
     private String cidade;
+//Métodos
 
+    //Método construtora: Editora() *é incorporado pelo sistema
+    //Usado para criar um novo objeto Junto com "new"
+    //
     public int getCodigo() {
         return this.codigo;
     }
